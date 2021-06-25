@@ -1,0 +1,584 @@
+header{
+    background-image: url("../img/header.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header nav{
+    padding: 50px 0px !important;
+}
+
+header nav img{
+    height: 50px;
+}
+
+.nav-rigth{
+    margin-left: auto !important;
+}
+
+#navbar-cinesis a{
+    color: #ffffff !important;
+    margin: 0px 10px 0px 0px;
+    font-family: manrope;
+    transition: 0.2s linear;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+}
+
+#navbar-cinesis .active{
+    color: #FFCC00 !important;
+}
+
+#navbar-cinesis a:hover{
+    color: #FFCC00 !important;
+}
+
+.banner-text{
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.banner-text img{
+    width: 55%;
+}
+@media only screen and (max-width: 679px){
+    .banner-text img{
+        width: 85%;
+        margin-top: 70px;
+    }
+}
+
+.banner-text figcaption{
+    color: #fff;
+    font-family: manrope;
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.banner-text figcaption a{
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    border: 2px solid;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+}
+
+.banner-text figcaption a:hover {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #0067CF;
+    border: 2px solid #fff;
+    background-color: #fff;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0);
+}
+
+.functions{
+    text-align: center;
+}
+
+.functions img{
+    width: 80%;
+    padding: 30px 0px 0px 0px;
+}
+
+.functions figcaption{
+    text-align: center;
+    font-weight: 500;
+    color: #868686;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+
+.logo-new{
+    max-width: 400px;
+    margin-top: 130px;
+}
+
+.functions p{
+    color: #007EA6 !important;
+    font-family: manrope;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.functions .espacamento{
+    margin-bottom: 150px;
+}
+
+.about{
+    background-color: #D5D5D5;
+}
+
+.about h1{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #008DBD;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 65%, #656565 65%, #656565 94%, rgba(0,0,0,0) 94%);
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 57px;
+}
+@media only screen and (max-width: 400px){
+    .about h1{
+        font-size: 40px;
+        bottom: 45px;
+    }
+}
+
+.about{
+    background-image: url(../img/BG_About.png);
+}
+
+.img-presentation{
+    width: 100%;
+}
+@media only screen and (max-width: 700px){
+    .img-presentation{
+        display: none;
+    }
+}
+
+.background-over{
+    padding: 0;
+}
+
+@media only screen and (min-width: 700px){
+    .presentation-mobile{
+        display: none;
+    }
+}
+
+.presentation-mobile img{
+    width: 100%;
+}
+
+.presentation-mobile article{
+    text-align: center;
+    font-family: manrope;
+    color: #797979;
+    background-color: #F1F1F1;
+    padding: 20px 0px;
+    margin-top: 10px;
+    box-shadow: 0px 12px 57px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 450px){
+    .none-mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px){
+    .ok-mobile{
+        display: none;
+    }
+
+    .banner-text img{
+        width: 70%;
+    }
+
+    .banner-text{
+        margin: 0;
+    }
+}
+
+.card-presentation{
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px){
+    .card-presentation{
+        width: 100%;
+        background-color: black;
+        height: 40px;
+        text-align: center;
+    }
+}
+
+.card-presentation.e1{
+    background-color: #008DBD;
+}
+.card-presentation.e2{
+    background-color: #00678A;
+}
+.card-presentation.e3{
+    background-color: #014C66;
+}
+.card-presentation.e4{
+    background-color: #12323D;
+}
+
+.points{
+    padding-bottom: 80px;
+}
+
+.points img{
+    height: 100%;
+}
+
+.row{
+    --bs-gutter-x: 0;
+}
+
+.about h3{
+    font-family: manrope;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 15px;
+    color: #4B4B4B;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 660px){
+    .about h3{
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+}
+
+
+#vantagens{
+    background-image: url(../img/Background_Vantagens.png);
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 50px;
+    background-position: ce;
+}
+
+#vantagens h1{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #FFF;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 55%, #FFCC00 55%, #FFCC00 84%, rgba(0,0,0,0) 84%);
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+@media only screen and (max-width: 400px){
+    #vantagens h1{
+        font-size: 40px;
+        bottom: 45px;
+    }
+}
+
+#vantagens p{
+    color: #fff;
+    font-family: manrope;
+    margin-top: 25px;
+}
+
+#vantagens h4{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    color:#fff;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#vantagens .item1{
+    background-color: #F6961A;
+    padding: 0px 5px;
+}
+#vantagens .item2{
+    background-color: #2E3192;
+    padding: 0px 5px;
+}
+#vantagens .item3{
+    background-color: #00A651;
+    padding: 0px 5px;
+}
+#vantagens .item4{
+    background-color: #A9A9A9;
+    padding: 0px 5px;
+}
+
+@media only screen and (max-width: 990px){
+    #vantagens figure{
+        width: 100%;
+        text-align: center;
+    }
+    #vantagens p{
+        text-align: center;
+    }
+}
+
+#solutions{
+    background-color: #EEEEEE;
+    padding: 100px 0px;
+}
+
+#solutions h1{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #0057CA;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 55%, #FFCC00 55%, #FFCC00 84%, rgba(0,0,0,0) 84%);
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#solutions h4{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color:#838383;
+}
+@media only screen and (max-width: 500px){
+    #solutions h1{
+        font-size: 45px;
+    }
+}
+
+#solutions .card{
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: -6px 20px 30px rgba(0, 0, 0, 0.13);
+}
+
+#solutions .card-title{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+#solutions .card-body{
+    text-align: center;
+}
+
+#solutions img{
+    height: 60px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+#solutions .card-text{
+    padding: 5px 10px 5px 10px;
+    color: #949393;
+    font-family: manrope;
+    min-height: 130px;
+}
+
+#solutions a{
+    color: #595959;
+    font-family: 'Baloo 2', cursive;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*========= Form =========*/
+
+#form{
+	padding: 70px 20px;
+	overflow: hidden;
+}
+
+#form form{
+	background: linear-gradient(180deg, #01EFE1 0%, #0115C6 78.65%);
+	background-size: contain;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+#form form input{
+	border:none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	box-shadow: -6px 7px 13px rgba(0, 0, 0, 0.15) !important;
+}
+
+.title-input{
+	text-align: center;
+	font-family: Manrope;
+	font-size: 17px;
+	color: #FFF;
+	padding: 5px;
+
+}
+
+#form h1{
+	font-family: 'Baloo 2', cursive;
+	font-weight:  800;
+	color: #5A5A5A;
+	padding-top: 150px;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 767px){
+	#form h1{
+		padding: 0px 0px 10px 0px;
+		text-align: center;
+        
+	}
+	#form .mobile-correction{
+		margin-bottom: 15px;
+	}
+}
+
+#form .inf{
+    font-family: Manrope;
+    color: #5A5A5A;
+    font-size: 18px;
+    margin: 0;
+}
+@media only screen and (max-width: 767px){
+	#form .inf{
+        text-align: center;
+    }
+
+    #form form{
+        margin-top: 20px;
+    }
+}
+
+.btn-form{
+	font-family: Manrope;
+	font-weight:  500;
+	background-color: #01EFE1;
+	border-color: #01EFE1;
+    color: #0115C6;
+}
+.btn-form:hover, .btn-primary:hover, #form-link:hover{
+	background-color: #00BFB6;
+    border-color: #00BFB6;
+	border-radius: 5px;
+    color: #0115C6;
+}
+
+/*========= Footer =========*/
+
+footer{
+	padding: 50px 20px;
+}
+
+.copyright{
+	padding-top: 60px;
+    text-align: center;
+}
+@media only screen and (max-width: 1199px){
+	.copyright{
+		padding-top: 35px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.copyright{
+		text-align: center;
+	}
+}
+
+
+.logo_rodape{
+	width: 90%;
+    position: relative;
+    top: 25px;
+}
+@media only screen and (max-width: 767px){
+	.logo_rodape{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.logo_rodape{
+		padding-top: 20px;
+	}
+}
+
+.social{
+	width: 100%;
+	padding-top: 30px;
+}
+@media only screen and (max-width: 991px){
+	.social{
+		width: 100%;
+		padding-top: 40px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.social{
+		width: 50%;
+		padding-top: 40px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.social-contain{
+		text-align: center;
+	}
+}
+
+.final{
+	color: #fff;
+	font-family: Manrope;
+	font-weight:  500;
+	background-color: #0165CC;
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#aviso{
+    padding: 120px 0px;
+    background-image: url(../img/background_aviso.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#aviso h1{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 55px;
+    color: #FFF;
+    text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 55%, #FFCC00 55%, #FFCC00 84%, rgba(0,0,0,0) 84%);
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1010px){
+    #aviso h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 650px){
+    #aviso h1{
+        background: none;
+        color: #FFCC00;
+    }
+}
+
+#aviso p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    color:#FFF;
+    max-width: 600px;
+    font-family: Manrope;
+    font-weight: 500;
+    margin: 0 auto;
+}
