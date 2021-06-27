@@ -26,6 +26,29 @@ header nav img{
     font-weight: 500;
 }
 
+#navbarauxiliar{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F4F4F4 100%), #FFFFFF;
+    z-index: 2000;
+    font-family: manrope;
+    display: none;
+    box-shadow: 0px 13px 15px rgba(87, 63, 63, 0.12);
+}
+
+#navbarauxiliar a{
+    transition: 0.2s linear;
+    font-weight: 500;
+}
+
+#navbarauxiliar .active{
+    color: #005fcd !important;
+    border-bottom: 3px solid;
+}
+
+#navbarauxiliar a:hover{
+    color: #005fcd !important;
+    border-bottom: 3px solid;
+}
+
 #navbar-cinesis .active{
     color: #FFCC00 !important;
 }
@@ -581,4 +604,8 @@ footer{
     font-family: Manrope;
     font-weight: 500;
     margin: 0 auto;
+}
+
+.disableult{
+    display: none !important;
 }

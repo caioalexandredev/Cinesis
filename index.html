@@ -4,42 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png">
     <title>Cinesis - Venha fazer parte!</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <header>
+
+    <section style="position: fixed; display: block; width: 100%;" id="navbarauxiliar" class="disableult animate__animated animate__fadeInDown">
+        <div class="container">
+            <nav id="navbar-auxiliar" class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img style="height: 50px; margin: 10px 0px;" src="img/logo_origin.png" alt="Logo Cinesis">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-cinesis-auxiliar" aria-controls="navbar-cinesis-auxiliar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-cinesis-auxiliar">
+                        <ul class="navbar-nav nav-rigth">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" onclick="scrolltoTop()" id="initial-link">Ínicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollto('#about')" id="about-link">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollto('#vantagens')" id="vantagens-link">Vantagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollto('#solutions')" id="solutions-link">Soluções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="scrollto('#form')" id="form-linka">Contato</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        </div>
+    </section>
+    
+
+    <header id="initial">
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="img/CineSis-Logo.svg" alt="Logo Cinesis">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-cinesis" aria-controls="navbar-cinesis" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbar-cinesis">
                         <ul class="navbar-nav nav-rigth">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Ínicio</a>
+                            <a class="nav-link active" aria-current="page" href="#" onclick="scrolltoTop()">Ínicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quem Somos</a>
+                            <a class="nav-link" href="#" onclick="scrollto('#about')">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Vantagens</a>
+                            <a class="nav-link" href="#" onclick="scrollto('#vantagens')">Vantagens</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Soluções</a>
+                            <a class="nav-link" href="#" onclick="scrollto('#solutions')" id="solutions-link">Soluções</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#" onclick="scrollto('#form')">Contato</a>
                         </li>
                         </ul>
                     </div>
@@ -47,17 +88,17 @@
               </nav>
         </section>
 
-        <figure class="banner-text">
+        <figure id="banner" class="banner-text">
             <img class="ok-mobile" src="img/banner-text.png" alt="Texto de Apresentação do Cinesis: Um unico sistema, uma unica solução!">
             <img class="none-mobile" src="img/text-mobile.png" alt="Texto de Apresentação do Cinesis: Um unico sistema, uma unica solução!">
             <figcaption>
-                <a href="">Descubra e saiba mais logo abaixo!</a>
+                <a href="#" onclick="scrollto('#vantagens')">Descubra e saiba mais logo abaixo!</a>
             </figcaption>
         </figure>
     </header>
 
     <main>
-        <section class="functions">
+        <section id="functions" class="functions">
             <img class="logo-new" src="img/logo.png" alt="Logo da plataforma">
             <p>Um sistema repleto de funcionalidades e muito mais!</p>
             <div class="container">
@@ -123,7 +164,7 @@
             <div class="espacamento"></div>
         </section>
         
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
                 <h1>QUEM SOMOS</h1>
             </div>
@@ -399,5 +440,60 @@
 	
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        //Função de Fazer Scroll ate o ID passado
+        function scrollto(id){
+			$('html, body').animate({ scrollTop: $(id).offset().top - 50 }, 200);
+		}
+
+        //Função de Levar ao Topo
+        function scrolltoTop(id){
+			$('html, body').animate({ scrollTop: $(id).offset().top}, 200);
+		}
+
+        //Marcação de Link com Base Scroll
+        $( window ).scroll(function() {
+            if($("#form").offset().top -100 < $(document).scrollTop()){
+                removerclasseslink();
+                $( "#form-linka" ).addClass( "active" );
+            }else if($("#solutions").offset().top -100 < $(document).scrollTop()){
+                removerclasseslink();
+                $( "#solutions-link" ).addClass( "active" );
+            }else if($("#vantagens").offset().top -100 < $(document).scrollTop()){
+                removerclasseslink();
+                $( "#vantagens-link" ).addClass( "active" );
+            }else if($("#about").offset().top -100 < $(document).scrollTop()){
+                removerclasseslink();
+                $( "#about-link" ).addClass( "active" );
+            }else if($("#initial").offset().top < $(document).scrollTop()){
+                removerclasseslink();
+                $( "#initial-link" ).addClass( "active" );
+            }
+
+            if($("#initial").offset().top + 150 < $(document).scrollTop()){
+                $( "#navbarauxiliar" ).removeClass( "disableult");
+            }else{
+			    $( "#navbarauxiliar" ).addClass( "disableult" );
+            }
+		});
+
+        //Remove o .active dos links pre-escritos
+        function removerclasseslink(){
+			if ($('#form-linka').is('.active')){
+				$( "#form-linka" ).removeClass( "active" );
+			}else if ($('#solutions-link').is('.active')){
+				$( "#solutions-link" ).removeClass( "active" );
+			}else if ($('#vantagens-link').is('.active')){
+				$( "#vantagens-link" ).removeClass( "active" );
+			}else if ($('#about-link').is('.active')){
+				$( "#about-link" ).removeClass( "active" );
+			}else if ($('#initial-link').is('.active')){
+				$( "#initial-link" ).removeClass( "active" );
+			}
+		}
+
+
+    </script>
 </body>
 </html>
