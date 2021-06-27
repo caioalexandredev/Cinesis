@@ -609,3 +609,10 @@ footer{
 .disableult{
     display: none !important;
 }
+
+#customers img{
+    height: auto !important;
+    border-radius: 3px;
+    box-shadow: -5px 9px 10px rgba(87, 63, 63, 0.12);
+    margin: 20px 0px;
+}
