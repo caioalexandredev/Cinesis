@@ -472,15 +472,21 @@
     <script>
         //Função de Fazer Scroll ate o ID passado
         function scrollto(id){
+            $('#navbar-cinesis').collapse('hide');
+            $('#navbar-cinesis-auxiliar').collapse('hide');
 			$('html, body').animate({ scrollTop: $(id).offset().top - 50 }, 200);
 		}
         //Função de Fazer Scroll ate o ID passado mais antes
         function scrolltok(id){
+            $('#navbar-cinesis').collapse('hide');
+            $('#navbar-cinesis-auxiliar').collapse('hide');
 			$('html, body').animate({ scrollTop: $(id).offset().top - 150 }, 200);
 		}
 
         //Função de Levar ao Topo
         function scrolltoTop(id){
+            $('#navbar-cinesis').collapse('hide');
+            $('#navbar-cinesis-auxiliar').collapse('hide');
 			$('html, body').animate({ scrollTop: $(id).offset().top}, 200);
 		}
 
