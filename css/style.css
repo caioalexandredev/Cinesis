@@ -1,3 +1,7 @@
+*{
+	font-family: manrope;
+}
+
 header{
     background-image: url("../img/header.png");
     height: 100vh;
@@ -18,12 +22,46 @@ header nav img{
 }
 
 #navbar-cinesis a{
-    color: #ffffff !important;
+    color: #ffffff;
     margin: 0px 10px 0px 0px;
     font-family: manrope;
     transition: 0.2s linear;
     text-shadow: -5px 4px 8px rgba(0, 0, 0, 0.25);
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.contato-lnks{
+	background-color: #FFCC00;
+	text-shadow: -5px 4px 8px rgba(0, 0, 0, 0) !important;
+	border-radius: 50px;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	color: #005fcd !important;
+}
+.contato-lnks:hover{
+	background-color: #f1b400;
+	text-shadow: -5px 4px 8px rgba(0, 0, 0, 0) !important;
+	border-radius: 50px;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	color: #005fcd !important;
+}
+
+.contato-lnksp{
+	background-color: #005fcd;
+	text-shadow: -5px 4px 8px rgba(0, 0, 0, 0) !important;
+	border-radius: 50px;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	color: #FFF !important;
+}
+.contato-lnksp:hover{
+	background-color: #004ba2;
+	text-shadow: -5px 4px 8px rgba(0, 0, 0, 0) !important;
+	border-radius: 50px;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	color: #FFF !important;
 }
 
 #navbarauxiliar{
@@ -40,7 +78,7 @@ header nav img{
 
 #navbarauxiliar a{
     transition: 0.2s linear;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 #navbarauxiliar .active{
@@ -49,7 +87,7 @@ header nav img{
 }
 
 #navbarauxiliar a:hover{
-    color: #005fcd !important;
+    color: #005fcd;
     border-bottom: 3px solid;
 }
 
@@ -58,7 +96,7 @@ header nav img{
 }
 
 #navbar-cinesis a:hover{
-    color: #FFCC00 !important;
+    color: #FFCC00;
 }
 
 .banner-text{
@@ -142,6 +180,7 @@ header nav img{
 
 .about{
     background-color: #D5D5D5;
+	padding-bottom: 60px;
 }
 
 .about h1{
@@ -504,7 +543,7 @@ footer{
 }
 
 .copyright{
-	padding-top: 60px;
+	padding-top: 50px;
     text-align: center;
 }
 @media only screen and (max-width: 1199px){
