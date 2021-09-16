@@ -352,6 +352,12 @@ header nav img{
     color: #fff;
     font-family: manrope;
     margin-top: 25px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#vantagens li{
+	color: #fff;
 }
 
 #vantagens h4{
@@ -602,9 +608,19 @@ footer{
 	font-family: Manrope;
 	font-weight:  500;
 	background-color: #0165CC;
-	padding: 20px 10px;
+	padding: 50px 10px;
 	text-align: center;
 	font-size: 15px;
+}
+
+#rodape_whats {
+    width: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding-bottom: 10px;
+    text-align: right;
+    z-index: 1000;
 }
 
 #aviso{
